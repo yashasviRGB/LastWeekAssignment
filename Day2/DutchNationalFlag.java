@@ -35,5 +35,7 @@ class DutchNationalFlag {
 
         System.out.println("Sorted Array:");
         for(int x : arr) System.out.print(x + " ");
+
+        sc.close();
     }
 }

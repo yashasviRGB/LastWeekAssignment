@@ -46,5 +46,7 @@ class ThreeSum {
             for (int x : list) System.out.print(x + " ");
             System.out.println();
         }
+
+        sc.close();
     }
 }

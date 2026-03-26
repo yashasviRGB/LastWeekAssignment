@@ -55,6 +55,7 @@ class MineSweeperGrid {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
 

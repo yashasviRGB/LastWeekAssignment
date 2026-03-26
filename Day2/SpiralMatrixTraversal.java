@@ -47,5 +47,7 @@ class SpiralMatrixTraversal {
 
         System.out.println("Spiral Traversal:");
         for(int x : ans) System.out.print(x + " ");
+
+        sc.close();
     }
 }

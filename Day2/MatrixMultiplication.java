@@ -41,6 +41,7 @@ class MatrixMultiplication {
 
         if (n != n2) {
             System.out.println("Multiplication not possible");
+            sc.close();
             return;
         }
 
@@ -52,5 +53,6 @@ class MatrixMultiplication {
                 System.out.print(C[i][j] + " ");
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -42,5 +42,6 @@ class RotateMatrix90 {
                 System.out.print(mat[i][j] + " ");
             System.out.println();
         }
+        sc.close();
     }
 }

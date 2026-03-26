@@ -25,5 +25,7 @@ class KadaneAlgorithm {
         for(int i = 0; i < n; i++) arr[i] = sc.nextInt();
 
         System.out.println("Maximum Subarray Sum: " + maxSubarraySum(arr));
+
+        sc.close();
     }
 }

@@ -38,5 +38,6 @@ class ArrayRotation {
 
         System.out.println("Rotated Array:");
         for(int x : arr) System.out.print(x + " ");
+        sc.close();
     }
 }
